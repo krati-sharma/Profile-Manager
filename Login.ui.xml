@@ -1,0 +1,44 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	
+.important {
+		font-weight: bold;
+	}
+	
+
+	</ui:style>
+	
+	<m:MaterialRow>
+	<m:MaterialColumn>
+	<m:MaterialCard backgroundColor="BLUE_GREY_DARKEN_1" marginTop="100" marginLeft="500" width="50%">
+	<m:MaterialCardContent textColor="WHITE">
+	<m:MaterialImage ui:field="h4" url="https://arabacademy-u8hapu3mdn.netdna-ssl.com/wp-content/uploads/2015/04/loginImage-400x300.jpg" width="50%" />
+	<m:MaterialCardTitle text="Admin Login" />
+	
+	<m:MaterialTextBox label="Name" ui:field="name" iconType="FACE"></m:MaterialTextBox>
+	<m:MaterialTextBox label="Password" ui:field="password" iconType="LAPTOP"></m:MaterialTextBox>
+	
+	
+		
+	
+	</m:MaterialCardContent>
+	
+	<m:MaterialCardAction >
+	<m:MaterialButton text="LOGIN" ui:field="Login"></m:MaterialButton>
+	<m:MaterialButton text="New User? Register Here !"></m:MaterialButton>
+	</m:MaterialCardAction>
+	
+	</m:MaterialCard>
+	</m:MaterialColumn>
+	</m:MaterialRow>
+	
+	<!-- <g:HTMLPanel>
+	 <m:MaterialImage ui:field="h4" url="https://arabacademy-u8hapu3mdn.netdna-ssl.com/wp-content/uploads/2015/04/loginImage-400x300.jpg" width="50%" />
+	<m:MaterialTextBox ui:field="name" label="First Name" iconType="FACE" ></m:MaterialTextBox>
+     <m:MaterialTextBox ui:field="password" label="Password" iconType="MEMORY" ></m:MaterialTextBox>
+	<m:MaterialButton ui:field="Login" text="LOGIN" iconType="LAPTOP" ></m:MaterialButton>
+	</g:HTMLPanel>  -->
+</ui:UiBinder> 
